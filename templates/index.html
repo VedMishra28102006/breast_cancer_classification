@@ -1,0 +1,36 @@
+{% if context["prediction"] %}
+<h3>Prediction: {{ context["prediction"] }}</h1>
+{% endif %}
+<form method="POST">
+  <label>Mean radius:</label>
+  <input required type="number" step="any" name="mean_radius">
+  <br>
+  <label>Mean texture:</label>
+  <input required type="number" step="any" name="mean_texture">
+  <br>
+  <label>Mean perimeter:</label>
+  <input required type="number" step="any" name="mean_perimeter">
+  <br>
+  <label>Mean area:</label>
+  <input required type="number" step="any" name="mean_area">
+  <br>
+  <label>Mean smoothness:</label>
+  <input required type="number" step="any" name="mean_smoothness">
+  <br>
+  <label>Mean compactness:</label>
+  <input required type="number" step="any" name="mean_compactness">
+  <br>
+  <label>Mean concavity:</label>
+  <input required type="number" step="any" name="mean_concavity">
+  <br>
+  <label>Mean concave points:</label>
+  <input required type="number" step="any" name="mean_concave_points">
+  <br>
+  <label>Mean symmetry:</label>
+  <input required type="number" step="any" name="mean_symmetry">
+  <br>
+  <label>Mean fractal dimension:</label>
+  <input required type="number" step="any" name="mean_fractal_dimension">
+  <br>
+  <button type="submit">Submit</button>
+</form>
