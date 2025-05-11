@@ -1,16 +1,16 @@
 1) Description
 
-A breast cancer app which takes some features as user input and predicts the cancer class based on the training dataset.
+A breast cancer classification project which takes some features as user input and predicts the cancer class based on the training dataset.
 
 2) How to run
 
-Install the required libraries, run python3 main.py and open the http://localhost:5000/ url.
+Install the required packages, then run python3 main.py inside the project's root folder and open the http://localhost:5000/ url.
 
 3) Dependencies
 
-Libraries required to be installed for this project: flask, pandas, sklearn
+Packages required to be installed for this project: flask, pandas, sklearn
 
-4) Courtesy
+4) Dataset
 
 The data for training used in this app is taken from sklearn.datasets.
 
