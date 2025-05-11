@@ -1,6 +1,6 @@
 1) Description
 
-A breast cancer classification project which takes some features as user input and predicts the cancer class based on the training dataset.
+A breast cancer classification app which takes some features as user input and predicts the cancer class based on the training dataset.
 
 2) How to run
 
